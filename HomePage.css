@@ -1,0 +1,65 @@
+.Home-Page{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.about-me{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 100px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.greeting{
+   padding-left: 20px;
+   padding-top: 20px;
+   margin-bottom: 0px;
+   font-size: 35px;
+   color: #666;
+}
+
+.name{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size: 130px;
+    color: #824bb1;
+    font-family: "Oregano";
+}
+
+.intro{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size: 40px;
+    color: rgb(114, 114, 236);
+}
+
+button{
+    margin-left: 20px;
+    margin-top: 35px;
+    padding: 18px;
+    color: white;
+    border: 0 solid gray;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 15;
+    background-color: #712cae;
+
+}
+
+button:hover{
+    background-color: #824bb1;
+}
+
+button:active{
+    background-color: #824bb1;
+    font-size: 10;
+    padding: 15px;
+    margin-top: 36px;
+}
+.my-image{
+    background-color: lightblue;
+    flex: 1;
+}
