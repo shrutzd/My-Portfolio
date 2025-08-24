@@ -21,12 +21,18 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    border-bottom-style: solid ;
+    border-bottom-width: 2px;
+    border-bottom-color: #774ca0;
 }
 
 .left-section{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    border-bottom-style: solid ;
+    border-bottom-width: 2px;
+    border-bottom-color: #774ca0;
 }
 .sections{
     padding: 10px;
@@ -35,7 +41,7 @@
     margin-bottom: 10px;
 }
 
-p{
+a{
     cursor: pointer;
     padding: 0px;
     margin: 0px;
@@ -49,22 +55,22 @@ p{
     text-decoration: none;
 }
 
-p::after{
+a::after{
     content: "";
     position: absolute;
     left: 0;
     bottom: 0;
     width: 0;
-    height: 2px;
+    height: 1px;
     background: #774ca0;
     transition: width 0.3s ease;
 }
 
-p:hover{
+a:hover{
     color: #774ca0;
 }
 
-p:hover::after{
+a:hover::after{
     width: 100%;
 }
 
