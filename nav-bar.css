@@ -1,1 +1,76 @@
 
+.logo-name{
+    font-family: "Lily Script One";
+    font-size: 60px;
+    color: #774ca0;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.nav-bar{
+    height: 80px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;        background-color: #e7e3f5;
+    position: relative;
+    z-index: 5;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sections{
+    padding: 10px;
+    padding-bottom: 13px;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+
+p{
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Amatic SC";
+    font-size: 20px;
+    color: rgb(179, 152, 243);
+    font-family: "Barlow Condensed";
+    font-weight: bold;
+    position: relative;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+p::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #774ca0;
+    transition: width 0.3s ease;
+}
+
+p:hover{
+    color: #774ca0;
+}
+
+p:hover::after{
+    width: 100%;
+}
+
+.current-page{
+    color: #774ca0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px ;
+    border-bottom-color: #774ca0;
+}
